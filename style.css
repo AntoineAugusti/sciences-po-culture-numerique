@@ -1,25 +1,7 @@
-html, body {
-  height: 100%;
-}
-body {
-  display: flex;
-  flex-direction: column;
-}
-main {
-  flex: 1 0 auto;
-  margin-top: -2.5em;
-}
-footer {
-  flex-shrink: 0;
-  background: #D43337;
-  padding: 2em 1em;
-  margin-top: 2em;
-  color: white;
-  font-size: .8em;
-}
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
+  line-height: 1.3;
 }
 .container {
   max-width: 1200px;
@@ -33,8 +15,14 @@ header {
   font-weight: bold;
   background: #5186EC;
   color: white;
-  line-height: 1.2;
   box-shadow: 0px 3px 10px rgba(0,0,0,.2);
+}
+footer {
+  background: #D43337;
+  padding: 2em 1em;
+  margin-top: 2em;
+  color: white;
+  font-size: .8em;
 }
 h2 {
   font-size: 1.8em;
@@ -50,6 +38,9 @@ a {
 a:hover {
   border-color: #479A5F;
 }
+i {
+  font-style: italic;
+}
 ul {
   margin-top: 2em;
   list-style: square inside;
@@ -57,9 +48,6 @@ ul {
 }
 ul li {
   margin-bottom: .5em;
-}
-pre {
-  line-height: 1.3em;
 }
 code {
   margin: -.5em 0 -2em 0;
