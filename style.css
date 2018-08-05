@@ -1,3 +1,22 @@
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+  margin-top: -2.5em;
+}
+footer {
+  flex-shrink: 0;
+  background: #D43337;
+  padding: 2em 1em;
+  margin-top: 2em;
+  color: white;
+  font-size: .8em;
+}
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
@@ -15,6 +34,7 @@ header {
   background: #5186EC;
   color: white;
   line-height: 1.2;
+  box-shadow: 0px 3px 10px rgba(0,0,0,.2);
 }
 h2 {
   font-size: 1.8em;
@@ -51,7 +71,7 @@ code {
 }
 @media only screen and (max-width: 768px) {
   header {
-    padding: 1.5em 0em;
+    padding: 1.5em 0;
     font-weight: normal;
   }
 }
