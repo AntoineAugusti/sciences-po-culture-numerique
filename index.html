@@ -4,47 +4,11 @@
   <meta charset="utf-8">
   <title>Cours de culture numérique - Sciences Po</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha256-gvEnj2axkqIj4wbYhPjbWV7zttgpzBVEgHub9AAZQD4=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css" integrity="sha256-aw9uGjVU5OJyMYN70Vu2kZ1DDVc1slcJCS2XvuPCPKo=" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Roboto', sans-serif;
-      font-size: 17px;
-    }
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 1em;
-    }
-    header {
-      padding: 2em;
-      margin-bottom: 1.3em;
-      font-size: 2em;
-      font-weight: bold;
-      background: #5186EC;
-      color: white;
-      line-height: 1.2;
-    }
-    h2 {
-      font-size: 1.8em;
-      margin-bottom: .7em;
-      color: #D43337;
-    }
-    a {
-      color: #479A5F;
-      text-decoration: none;
-      transition: all 1s linear;
-    }
-    a:hover {
-      border-bottom: 1px solid #479A5F;
-    }
-    @media only screen and (max-width: 768px) {
-      header {
-        padding: 1.5em 0em;
-        font-weight: normal;
-      }
-    }
-  </style>
+  <link href="style.css" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -55,7 +19,41 @@
 
   <div class="container">
     <h2>Slides</h2>
-    Les slides du cours sont disponibles <a href="https://docs.google.com/presentation/d/1RDfXYfuvU2zRHgy2rCLaNeq5hWj92hKx9TaGgifWZGA/edit?usp=sharing">en ligne</a>.
+    <p>
+      Les slides du cours sont disponibles <a href="https://docs.google.com/presentation/d/1RDfXYfuvU2zRHgy2rCLaNeq5hWj92hKx9TaGgifWZGA/edit?usp=sharing">en ligne</a>.
+    </p>
+
+    <h2>Du code</h2>
+    <p>Before</p>
+    <pre>
+      <code class="html">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Un document HTML minimal&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;!-- Du contenu pour l'utilisateur ici --&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+      </code>
+    </pre>
+    <div class="titre-code">Un titre pour du code.</div>
+
+
+    <h2>Liens utiles</h2>
+    <p>Ces liens ont été abordés pendant le cours ou sont un complément au cours.</p>
+    <ul>
+      <li>
+        Câbles sous-marins : <a href="https://www.submarinecablemap.com/">submarinecablemap.com</a>
+      </li>
+      <li>Une liste des principales balises HTML : <a href="https://developer.mozilla.org/fr/docs/Apprendre/HTML/Balises_HTML#Les_balises_HTML">developer.mozzilla.org</a></li>
+    </ul>
   </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
 </body>
 </html>
