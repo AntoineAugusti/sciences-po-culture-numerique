@@ -39,7 +39,7 @@ h2 {
 a {
   color: #479A5F;
   text-decoration: none;
-  transition: all .3s linear;
+  transition: border-color .3s linear;
   border-bottom: 1px solid transparent;
 }
 a:hover {
@@ -57,7 +57,13 @@ ul li {
   margin-bottom: .5em;
 }
 code {
+  transition: border-color .3s linear;
+  border: 2px solid transparent;
   margin: -.5em 0 -2em 0;
+}
+code:hover {
+  border-color:#479A5F;
+  cursor: pointer;
 }
 .right {
   text-align: right;
@@ -66,6 +72,7 @@ code {
   color: #888;
   text-align: center;
   font-style: italic;
+  margin-bottom: 1.5em;
 }
 @media only screen and (max-width: 768px) {
   header {
