@@ -24,6 +24,13 @@ footer {
   color: white;
   font-size: .8em;
 }
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+footer a {
+  color: white;
+}
 h2 {
   font-size: 1.8em;
   margin: 1.5em 0 .7em 0;
@@ -51,6 +58,9 @@ ul li {
 }
 code {
   margin: -.5em 0 -2em 0;
+}
+.right {
+  text-align: right;
 }
 .titre-code {
   color: #888;
