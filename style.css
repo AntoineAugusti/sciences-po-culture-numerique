@@ -63,7 +63,6 @@ code {
 }
 code:hover {
   border-color:#479A5F;
-  cursor: pointer;
 }
 .titre-code {
   color: #888;
