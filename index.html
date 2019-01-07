@@ -10,7 +10,7 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha256-gvEnj2axkqIj4wbYhPjbWV7zttgpzBVEgHub9AAZQD4=" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css" integrity="sha256-aw9uGjVU5OJyMYN70Vu2kZ1DDVc1slcJCS2XvuPCPKo=" crossorigin="anonymous" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
 </head>
 <body>
@@ -22,24 +22,31 @@
 
   <main>
     <div class="container">
-      <h2>Contenu du cours</h2>
-      <p>
-        Les thèmes abordés dans le cours sont les suivants :
-      </p>
+      <div class="row">
+        <div class="col-75">
+          <h2>Contenu du cours</h2>
+          <p>
+            Les thèmes abordés dans le cours sont les suivants :
+          </p>
 
-      <ul>
-        <li>Histoire du web</li>
-        <li>Notions de réseaux : des serveurs aux navigateurs</li>
-        <li>Transport de la donnée</li>
-        <li>Langages client, langages serveur, bases de données</li>
-        <li>Votre première page web</li>
-        <li>Mini projet</li>
-        <li>Un projet web aujourd'hui</li>
-      </ul>
+          <ul>
+            <li>Histoire du web</li>
+            <li>Notions de réseaux : des serveurs aux navigateurs</li>
+            <li>Transport de la donnée</li>
+            <li>Langages client, langages serveur, bases de données</li>
+            <li>Votre première page web</li>
+            <li>Mini projet</li>
+            <li>Un projet web aujourd'hui</li>
+          </ul>
 
-      <p>
-        Les slides du cours sont disponibles <a href="https://docs.google.com/presentation/d/1RDfXYfuvU2zRHgy2rCLaNeq5hWj92hKx9TaGgifWZGA/edit?usp=sharing">en ligne</a>.
-      </p>
+          <p>
+            Les slides du cours sont disponibles <a href="https://docs.google.com/presentation/d/1RDfXYfuvU2zRHgy2rCLaNeq5hWj92hKx9TaGgifWZGA/edit?usp=sharing">en ligne</a>.
+          </p>
+        </div>
+        <div class="col-25">
+          <img src="assets/plan.svg" alt="Plan du cours" class="icone">
+        </div>
+      </div>
 
       <h2>Exemples de code</h2>
       <p>Ci-dessous, plusieurs exemples de code HTML ou CSS qui servent de base de travail dans le cours. Chaque exemple est référencé dans les diapositives.</p>
@@ -80,46 +87,54 @@
       </pre>
       <div class="titre-code">Premières lignes de CSS - exemple 2.</div>
 
-      <h2>Liens utiles</h2>
-      <p>Ces liens ont été abordés pendant le cours ou sont un complément au cours.</p>
-      <ul>
-        <li>
-          Câbles sous-marins : <a href="https://www.submarinecablemap.com/">submarinecablemap.com</a>
-        </li>
-        <li>
-          La conférence <i>Internet Libre ou Minitel 2.0</i> : <a href="https://www.fdn.fr/actions/confs/internet-libre-ou-minitel-2-0/">sur le site de la French Data Network</a>
-        </li>
-        <li>
-          Une liste des principales balises HTML : <a href="https://developer.mozilla.org/fr/docs/Apprendre/HTML/Balises_HTML#Les_balises_HTML">developer.mozzilla.org</a>
-        </li>
-        <li>
-          Référence CSS : <a href="https://developer.mozilla.org/fr/docs/Web/CSS/Reference">developer.mozzilla.org</a>
-        </li>
-        <li>
-          GitHub Pages : <a href="https://pages.github.com">pages.github.com</a>
-        </li>
-        <li>
-          Validateur HTML W3C : <a href="https://validator.w3.org/">validator.w3.org</a>
-        </li>
-        <li>
-          Google Fonts pour des polices personnalisées : <a href="https://fonts.google.com">fonts.google.com</a>
-        </li>
-        <li>
-          MOOC « Apprenez à créer votre site web avec HTML5 et CSS3 » : <a href="https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3">openclassrooms.com</a>
-        </li>
-        <li>
-          MOOC « Concevez votre site web avec PHP et MySQL » : <a href="https://openclassrooms.com/en/courses/918836-concevez-votre-site-web-avec-php-et-mysql">openclassrooms.com</a>
-        </li>
-        <li>
-          Apprendre à développer sur Codecademy : <a href="https://www.codecademy.com">codecademy.com</a>
-        </li>
-        <li>
-          Résoudre des énigmes en développant : <a href="https://www.codingame.com/start">codingame.com</a>
-        </li>
-        <li>
-          Bootcamp pour apprendre à coder : <a href="https://www.lewagon.com">lewagon.com</a>
-        </li>
-      </ul>
+      <div class="row">
+        <div class="col-75">
+          <h2>Liens utiles</h2>
+          <p>Ces liens ont été abordés pendant le cours ou sont un complément au cours.</p>
+          <ul>
+            <li>
+              Câbles sous-marins : <a href="https://www.submarinecablemap.com/">submarinecablemap.com</a>
+            </li>
+            <li>
+              La conférence <i>Internet Libre ou Minitel 2.0</i> : <a href="https://www.fdn.fr/actions/confs/internet-libre-ou-minitel-2-0/">sur le site de la French Data Network</a>
+            </li>
+            <li>
+              Une liste des principales balises HTML : <a href="https://developer.mozilla.org/fr/docs/Apprendre/HTML/Balises_HTML#Les_balises_HTML">developer.mozzilla.org</a>
+            </li>
+            <li>
+              Référence CSS : <a href="https://developer.mozilla.org/fr/docs/Web/CSS/Reference">developer.mozzilla.org</a>
+            </li>
+            <li>
+              GitHub Pages : <a href="https://pages.github.com">pages.github.com</a>
+            </li>
+            <li>
+              Validateur HTML W3C : <a href="https://validator.w3.org/">validator.w3.org</a>
+            </li>
+            <li>
+              Google Fonts pour des polices personnalisées : <a href="https://fonts.google.com">fonts.google.com</a>
+            </li>
+            <li>
+              MOOC « Apprenez à créer votre site web avec HTML5 et CSS3 » : <a href="https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3">openclassrooms.com</a>
+            </li>
+            <li>
+              MOOC « Concevez votre site web avec PHP et MySQL » : <a href="https://openclassrooms.com/en/courses/918836-concevez-votre-site-web-avec-php-et-mysql">openclassrooms.com</a>
+            </li>
+            <li>
+              Apprendre à développer sur Codecademy : <a href="https://www.codecademy.com">codecademy.com</a>
+            </li>
+            <li>
+              Résoudre des énigmes en développant : <a href="https://www.codingame.com/start">codingame.com</a>
+            </li>
+            <li>
+              Bootcamp pour apprendre à coder : <a href="https://www.lewagon.com">lewagon.com</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-25">
+          <img src="assets/studying.svg" alt="Apprendre" class="icone">
+        </div>
+      </div>
     </div>
   </main>
 

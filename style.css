@@ -8,14 +8,24 @@ body {
   margin: 0 auto;
   padding: 0 1em;
 }
+.row {
+  display: flex;
+  align-items: center;
+}
+.col-25 {
+  flex: 25%;
+}
+.col-75 {
+  flex: 75%;
+}
 header {
   padding: 2em;
   margin-bottom: 1.3em;
   font-size: 2em;
-  font-weight: bold;
   background: #5186EC;
   color: white;
   box-shadow: 0px 3px 10px rgba(0,0,0,.2);
+  font-family: 'Roboto Slab', serif;
 }
 footer {
   background: #D43337;
@@ -35,6 +45,7 @@ h2 {
   font-size: 1.8em;
   margin: 1.5em 0 .7em 0;
   color: #D43337;
+  font-family: 'Roboto Slab', serif;
 }
 a {
   color: #479A5F;
@@ -70,9 +81,16 @@ code:hover {
   font-style: italic;
   margin-bottom: 1.5em;
 }
+.icone {
+  height: 150px;
+}
+
 @media only screen and (max-width: 768px) {
   header {
     padding: 1.5em 0;
     font-weight: normal;
+  }
+  .icone {
+    height: 75px;
   }
 }
